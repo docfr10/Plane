@@ -386,7 +386,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 622704f4b39ffd44b88c23d4e4c9280f
+      Hash: ba7c2f7e5ea91618a916b4a181a966e3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Settigs

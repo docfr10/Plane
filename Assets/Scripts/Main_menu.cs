@@ -7,8 +7,7 @@ public class Main_menu : MonoBehaviour
 {
     public void Start()
     {
-        //Screen.fullScreen = false;
-        Screen.SetResolution(640, 480, false);
+        
     }
     public void NewGame()
     {
