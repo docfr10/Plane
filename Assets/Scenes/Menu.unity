@@ -2459,7 +2459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc6d08cf5b7f954db956aba738617c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 1793576469}
+  dropdownRes: {fileID: 1793576469}
+  dropdownQua: {fileID: 2145392587}
   toggle: {fileID: 608717461}
   am: {fileID: 24100000, guid: c7f18e9cdaaeb0f4cb5f8aec41b28a05, type: 2}
 --- !u!1 &1202066804
@@ -2669,7 +2670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc6d08cf5b7f954db956aba738617c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 1793576469}
+  dropdownRes: {fileID: 1793576469}
+  dropdownQua: {fileID: 0}
   toggle: {fileID: 608717461}
   am: {fileID: 24100000, guid: c7f18e9cdaaeb0f4cb5f8aec41b28a05, type: 2}
 --- !u!1 &1249586375

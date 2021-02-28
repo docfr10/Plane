@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class Settigs : MonoBehaviour
 {
-    public Dropdown dropdown;
+    public Dropdown dropdownRes, dropdownQua;
     public Toggle toggle;
 
     Resolution[] res;
@@ -18,6 +18,10 @@ public class Settigs : MonoBehaviour
         Screen.fullScreen = true;
 
         toggle.isOn = false;
+
+        dropdownQua.ClearOptions();
+        dropdownQua.AddOptions(QualitySettings.names.ToList());
+        dropdownQua.value = QualitySettings.GetQualityLevel();
 
         Resolution[] resolution = Screen.resolutions;
         res = resolution.Distinct().ToArray();
@@ -28,9 +32,9 @@ public class Settigs : MonoBehaviour
 
         }
 
-        dropdown.ClearOptions();
-        dropdown.AddOptions(strRes.ToList());
-        dropdown.value = res.Length - 1;
+        dropdownRes.ClearOptions();
+        dropdownRes.AddOptions(strRes.ToList());
+        dropdownRes.value = res.Length - 1;
 
         Screen.SetResolution(res[res.Length - 1].width, res[res.Length - 1].height, Screen.fullScreen);
     }
@@ -41,24 +45,22 @@ public class Settigs : MonoBehaviour
 
     public void setRes()
     {
-        Screen.SetResolution(res[dropdown.value].width, res[dropdown.value].height, Screen.fullScreen);
+        Screen.SetResolution(res[dropdownRes.value].width, res[dropdownRes.value].height, Screen.fullScreen);
     }
 
     public void FullScreenToggle()
     {
         Screen.fullScreen = !toggle.isOn;
     }
-    
+
+    public void SetQuality()
+    {
+        QualitySettings.SetQualityLevel(dropdownQua.value);
+    }
+
     public AudioMixer am;
     public void AudioVolume(float sliderValue)
     {
         am.SetFloat("masterVolume", sliderValue);
     }
-
-    public void Quality(int q)
-    {
-        QualitySettings.SetQualityLevel(q);
-    }
-
-
 }

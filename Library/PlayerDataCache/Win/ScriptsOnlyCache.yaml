@@ -52,39 +52,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1620}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1632}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1674}
+      Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 1684}
+      Script: {instanceID: 1686}
     - Class: 114
-      Script: {instanceID: 2112}
+      Script: {instanceID: 2114}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2490}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2534}
+      Script: {instanceID: 2536}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 2798}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3352}
+      Script: {instanceID: 3354}
     - Class: 114
-      Script: {instanceID: 3474}
+      Script: {instanceID: 3476}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -386,7 +386,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: ba7c2f7e5ea91618a916b4a181a966e3
+      Hash: a3561e88786ea083cb37fac1848feb28
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Settigs
