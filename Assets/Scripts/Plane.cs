@@ -14,6 +14,8 @@ public class Plane : MonoBehaviour
     public GameObject Platform;
     public int Speed = 8;
 
+    Rigidbody rb;
+
     void Update()
     {
         if (Input.GetKey(KeyCode.Space))
