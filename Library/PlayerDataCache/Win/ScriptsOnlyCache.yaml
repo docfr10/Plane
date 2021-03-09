@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - UnityStandardAssets.Water.WaterBasic
     Assembly-CSharp.dll:
     - Main_menu
     - Pause
@@ -48,8 +50,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -74,6 +74,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2906}
     - Class: 114
       Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3106}
     - Class: 114
       Script: {instanceID: 3280}
     - Class: 114
