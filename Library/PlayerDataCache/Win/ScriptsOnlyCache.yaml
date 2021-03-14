@@ -5,7 +5,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Main_menu
     - Pause
-    - Plane
+    - PlayerController
     - Settigs
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -69,17 +69,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1784}
     - Class: 114
-      Script: {instanceID: 2832}
+      Script: {instanceID: 1868}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2834}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 2908}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3280}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3286}
+      Script: {instanceID: 3282}
     - Class: 114
       Script: {instanceID: 3762}
     - Class: 115
@@ -138,21 +138,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1798}
     - Class: 114
-      Script: {instanceID: 2268}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2744}
     - Class: 114
-      Script: {instanceID: 2832}
+      Script: {instanceID: 2834}
     - Class: 114
-      Script: {instanceID: 3018}
+      Script: {instanceID: 3020}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3280}
+      Script: {instanceID: 3282}
     - Class: 114
       Script: {instanceID: 3634}
     - Class: 114
@@ -378,6 +378,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 44c2d3bd57c3d764412e06815f612aa3
@@ -954,12 +960,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: ActivateTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 7f4b0f9c311c7db8e787280d94d30dbb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Plane
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
